@@ -72,5 +72,5 @@ $$
 
 \
 \
-#### *если интересно почему $P(x|q,X) = P(x|q)$ то:
+#### *если интересно почему P(x|q,X) = P(x|q)  то:
 $$P(x|q,X) = \frac{P(x,q,X)}{p(q,X)} = \frac{P(x,X|q)p(q)}{p(q,X)} = \frac{P(X|q) P(x|q) p(q)}{p(q,X)} = \frac{P(X,q) P(x|q) p(q)}{ p(q) p(q,X)} = P(x|q)  $$
