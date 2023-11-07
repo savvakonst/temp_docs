@@ -41,14 +41,14 @@ $$
 
 $$P(B|A) = \frac{P(A|B)P(B)}{ \sum\limits_{i} P(A|B_i)P(B_i)}  $$
 
-или если $B$ непрерывная 
+или если $b$ непрерывная 
 
-$$ p(b|A) = \frac{P(A|b)p(b)}{ \int\limits_{i} P(A|b)p(b)dB}   $$
+$$ p(b|A) = \frac{P(A|b)p(b)}{ \int\limits_{i} P(A|b)p(b)db}   $$
 
 
 Применительно к нашему случаю получаем:
 
-$$  p(q|X) = \frac{P(X|q)p(q)}{ \int\limits_{i} P(X|q)p(q)dB} $$
+$$  p(q|X) = \frac{P(X|q)p(q)}{ \int\limits_{i} P(X|q)p(q)dq} $$
 
 Что же мы получили в итоге? Что такое есть $p(q|X)$ ?  А это новое распределение параметра $q$ с учетом данных эксперемента X.   
 
